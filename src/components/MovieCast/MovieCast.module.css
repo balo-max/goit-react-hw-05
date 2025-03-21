@@ -1,0 +1,31 @@
+.title {
+  font-size: 30px;
+
+  margin-bottom: 20px;
+}
+
+.castsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.castsItem {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  gap: 15px;
+
+  border: 1px solid rgb(181, 181, 181, 0.2);
+}
+
+.castName {
+  color: #a52a2a;
+}
+
+.castImg {
+  height: 300px;
+}

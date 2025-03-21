@@ -1,0 +1,40 @@
+.movieList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.movieItem {
+  font-size: 23px;
+  transition: ease transform 250ms;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 550px;
+  gap: 15px;
+
+  background-color: #242424;
+  border: 1px solid rgb(181, 181, 181, 0.2);
+}
+.movieLink {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.movieItem:hover {
+  transform: scale(1.1);
+}
+
+.movieItemWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}

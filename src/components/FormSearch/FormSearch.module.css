@@ -1,0 +1,20 @@
+.inputSearch {
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.btnSearch {
+  width: 80px;
+  height: 38px;
+  background-color: #a52a2a;
+
+  border: 1px solid rgb(143, 143, 143, 0.2);
+  border-radius: 3px;
+}
+
+.btnSearch:hover {
+  background-color: #c23535;
+}
