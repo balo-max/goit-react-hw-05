@@ -16,7 +16,14 @@
 }
 .text {
   text-align: start;
-  font-size: 18px;
+  font-size: 20px;
+  color: rgb(244, 120, 120);
+}
+
+.span {
+  font-size: 24px;
+  font-size: 600;
+  color: #ffffff;
 }
 
 .navList {

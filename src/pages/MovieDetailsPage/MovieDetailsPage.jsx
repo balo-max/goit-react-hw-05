@@ -55,10 +55,10 @@ export default function MovieDetailsPage() {
                 <div className={css.descriptionWrapper}>
                     <h2 className={css.title}>{currentMovie.title}</h2>
                     <ul className={css.descriptionWrapper}>
-                        <li><p className={css.text}>Release date: {currentMovie.release_date
+                        <li><p className={css.text}><span className={css.span}>Release date:</span> {currentMovie.release_date
                         }</p></li>
-                        <li><p className={css.text}>Overview: <br />{currentMovie.overview}</p></li>
-                        <li><p className={css.text}>Rating: <span>{currentMovie.vote_average}</span></p></li>
+                        <li><p className={css.text}><span className={css.span}>Overview:</span> <br />{currentMovie.overview}</p></li>
+                        <li><p className={css.text}><span className={css.span}>Rating:</span> <span>{currentMovie.vote_average}</span></p></li>
                     </ul>
                 </div>
             </div>}
